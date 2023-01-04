@@ -1,0 +1,50 @@
+body {
+  min-height: 2000px;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #fed9e7;
+}
+#projects {
+  background-color: #fed9e7;
+}
+footer {
+  background-color: #c9668c;
+  color: white;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.glow {
+  font-size: 60px;
+  color: #fb297a;
+  text-align: center;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+/* Text glowing from onw shade to other shade */
+@-webkit-keyframes glow {
+  from {
+      text-shadow: 0 0 10px #bc6a89,
+                   0 0 20px #bc6a89, 
+                   0 0 30px #c9668c, 
+                   0 0 40px #c9668c,
+                   0 0 50px #c9668c,
+                   0 0 60px #c9668c, 
+                   0 0 70px #c9668c;
+  }
+  to {
+      text-shadow: 0 0 20px #c9668c;
+                   0 0 30px #c9668c, 
+                   0 0 40px #c9668c,
+                   0 0 50px #c9668c, 
+                   0 0 60px #c9668c,
+                   0 0 70px #c9668c, 
+                   0 0 80px #c9668c;
+  }
+
+  
+  
+
